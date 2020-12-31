@@ -1,4 +1,26 @@
 body {
-    background: url(scenic.jpg);
+    background: url(images/scenic.jpg);
+    background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-header {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(146, 146, 145);
+    color:rgb(6, 214, 214);
+
+}
+.container1 {
+    background-color: grey;
+    width: 600px;
+    height: 500px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
