@@ -20,7 +20,6 @@ body {
     height: 500px;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+.img-fluid {
+background-size: auto;
 }
