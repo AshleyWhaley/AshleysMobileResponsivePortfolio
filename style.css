@@ -1,3 +1,4 @@
+
 body {
     background: url(images/scenic.jpg);
     background-position: center;
@@ -6,20 +7,55 @@ body {
     flex-direction: column;
 }
 
+p {
+    font-size: 20px;
+    font-family: 'Redressed', cursive;
+}
+.container {
+    background-color: #74c7b8;
+}
 
 .about-header {
     font-size: 2rem;
     font-weight: bold;
-    background-color: rgb(146, 146, 145);
-    color:rgb(6, 214, 214);
+    background-color: #ee9595;
+    color: black;
 
 }
-.contacts {
+
+.aboutme {
+    margin: 50px ;
+}
+
+.contact {
     background-color: grey;
     width: 600px;
     height: 500px;
+    margin: 50px;
+    align-self: center;
 }
 
 .img-fluid {
 background-size: auto;
+border-style: double;
+}
+
+#exampleInputMessage1 {
+    height: 200px;
+}
+
+.ash {
+    float: left;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    animation: mymove 7s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+  }
+    
 }
