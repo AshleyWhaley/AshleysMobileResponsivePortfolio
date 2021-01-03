@@ -21,9 +21,15 @@ p {
 
 }
 
+.links {
+    clear: both;
+    
+}
+
 .style {
     margin: 50px ;
     background-color: #74c7b8;
+    
 
 }
 
