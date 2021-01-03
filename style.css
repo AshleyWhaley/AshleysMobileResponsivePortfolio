@@ -11,9 +11,7 @@ p {
     font-size: 20px;
     font-family: 'Redressed', cursive;
 }
-.container {
-    background-color: #74c7b8;
-}
+
 
 .about-header {
     font-size: 2rem;
@@ -23,15 +21,17 @@ p {
 
 }
 
-.aboutme {
+.style {
     margin: 50px ;
+    background-color: #74c7b8;
+
 }
 
 .contact {
     background-color: grey;
     width: 600px;
     height: 500px;
-    margin: 50px;
+    margin: 75px;
     align-self: center;
 }
 
@@ -58,4 +58,13 @@ border-style: double;
     filter: grayscale(100%);
   }
     
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width:100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: gray;
 }
