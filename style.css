@@ -8,7 +8,7 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-family: 'Redressed', cursive;
 }
 
@@ -20,6 +20,8 @@ p {
     color: black;
 
 }
+
+
 
 .links {
     clear: both;
@@ -41,10 +43,6 @@ p {
     align-self: center;
 }
 
-.img-fluid {
-background-size: auto;
-border-style: double;
-}
 
 #exampleInputMessage1 {
     height: 200px;
@@ -56,6 +54,8 @@ border-style: double;
     border-style: solid;
     border-radius: 50%;
     animation: mymove 7s infinite;
+    background-size: auto;
+    
 }
 
 @keyframes mymove {
