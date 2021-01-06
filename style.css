@@ -1,5 +1,4 @@
 
-
 body {
     background: url(images/scenic.jpg);
     background-position: center;
@@ -12,14 +11,15 @@ p {
     font-family: 'Redressed', cursive;
 }
 
-#container {
+.container {
     display: flex;
     margin: auto;
     word-wrap: break-word;
-
+    position: relative;
+    background-color: #74c7b8 ;
 }
 
-.about-header {
+h1 {
     font-size: 2rem;
     font-weight: bold;
     background-color: #ee9595;
@@ -35,15 +35,8 @@ p {
 
 .contact {
     background-color: grey;
-    max-width: 55%;
-    height: 100%;
-    margin: 50px;
-    display: flex;
-    float: left;
-}
-
-.col-sm-12 {
-    
+    max-width: 60%;
+    margin: 30px;
 }
 
 .ash {
