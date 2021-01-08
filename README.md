@@ -12,6 +12,6 @@ Since the world is becoming more mobile-app oriented, it is crucial to have ever
 ### Link to Website
 [AshleysResponsiveMobilePortfolio](https://ashleywhaley.github.io/AshleysMobileResponsivePortfolio/index.html)
 
-![aboutme](aboutme.png)
-![portfolio](portfolio.png)
-![contact](contact.png)
+![aboutme](images/aboutme.jpg)
+![portfolio](images/portfolio.jpg)
+![contact](images/contact.jpg)
