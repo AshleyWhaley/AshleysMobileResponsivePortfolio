@@ -24,6 +24,7 @@ h1 {
     font-weight: bold;
     background-color: #ee9595;
     color: black;
+    padding: 5px;
 
 }
 
@@ -34,7 +35,7 @@ h1 {
     margin: 30px;
 }
 
-.ash {
+.img-thumbnail {
     float: left;
     margin: 20px;
     border-style: solid;
