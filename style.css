@@ -11,6 +11,14 @@ p {
     font-family: 'Redressed', cursive;
 }
 
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #ee9595;
+    color: black;
+    padding: 5px;
+}
+
 .container {
     display: flex;
     margin: auto;
@@ -18,16 +26,6 @@ p {
     position: relative;
     background-color: #74c7b8 ;
 }
-
-h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: #ee9595;
-    color: black;
-    padding: 5px;
-
-}
-
 
 .contact {
     background-color: grey;
@@ -42,7 +40,6 @@ h1 {
     border-radius: 50%;
     animation: mymove 7s infinite;
     background-size: auto;
-    
 }
 
 .img-fluid {
@@ -50,7 +47,6 @@ h1 {
     max-width: 100%;
     height: auto;
 }
-
 
 @keyframes mymove {
   50% {
