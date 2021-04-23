@@ -42,7 +42,8 @@ h1 {
     background-size: auto;
 }
 
-.img-fluid {
+.image-app {
+    padding-top: 10px;;
     display: block;
     max-width: 100%;
     height: auto;

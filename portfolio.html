@@ -11,17 +11,34 @@
   </head>
 <body>
   <!--Nav Section-->
-  <nav class="navbar navbar-expand navbar-light bg-light">
-    <a class="navbar-brand" href="#">Ashley Whaley</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link" href="index.html">About Me<span class="sr-only"></span></a>
-        <a class="nav-link active" href="portfolio.html">Portfolio</a>
-        <a class="nav-link" href="contacts.html">Contact</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ashley Whaley</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Links
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="https://docs.google.com/document/d/1q68wpLjR2DAqR5ANK7Oj_inYJSG6hiY5GY7LJlf8uvU/edit?usp=sharing" target="_blank">Resume</a></li>
+              <li><a class="dropdown-item" href="https://github.com/AshleyWhaley" target="_blank">GitHub</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/ashley-whaley-00227297/" target="_blank">LinkedIn</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -35,17 +52,45 @@
            <hr>
     <!--Star Trek Images-->
     <div class="row">
-        <img class="img-fluid col-md-6 my-3" src="images/covidmeme.jpg" alt="Covid Meme">
-        <img class="img-fluid col-md-6 my-3" src="images/thewholegang.jpg" alt="Star Trek crew">
+        <div class="card col-md-5 my-2 mx-auto">
+          <img class="image-app" src="images/boredom.png" alt="CureForBoredom">
+          <div class="card-body">
+            <h4>Cure for Boredom</h4>
+            <hr class="solid">
+            <p>Collaborative application made to distract the average user from the boredom of the current global pandemic. The main features of this application is 4 buttons that will take you down a rabbit hole.</p>
+            <a href="https://github.com/AshleyWhaley/CureForBoredom.git" target="_blank" class="btn btn-primary">Click me</a>
+          </div>
+        </div>
+        <div class="card col-md-5 my-2 mx-auto">
+          <img class="image-app" src="images/notetaker.jpg" alt="NoteTaker">
+          <div class="card-body">
+            <h4>Note Taker</h4>
+            <hr class="solid">
+            <p>Just a simple easy to navigate application that allows user to record notes and save them to their local storage. You can also return to the website to find your notes still there.</p>
+            <a href="https://github.com/AshleyWhaley/NoteTaker.git" target="_blank" class="btn btn-primary">Click me</a>
+          </div>
+        </div>
     </div>
       <div class="row">
-          <img class="img-fluid col-md-6 my-3" src="images/therealmvp.jpg" alt="Spock">
-          <img class="img-fluid col-md-6 my-3" src="images/thesluttyone.jpg" alt="Captain Kirk">
+         <div class="card col-md-5 my-2 mx-auto">
+          <img class="image-app" src="images/Weatherapp.png" alt="Weather App">
+          <div class="card-body">
+            <h4>Weather application</h4>
+            <hr class="solid">
+            <p>This presents a 5-day forecast by city which can be saved for future use. This shows the current temperature, humidity and an icon that will display a small image of the current weather.</p>
+            <a href="https://github.com/AshleyWhaley/Weatherapp.git" target="_blank" class="btn btn-primary">Click me</a>
+          </div>
+         </div>
+         <div class="card col-md-5 my-2 mx-auto">
+           <img class="image-app" src="images/quiz.jpg" alt="timed quiz">
+           <div class="card-body">
+             <h4>Timed Code Quiz</h4>
+             <hr class="solid">
+             <p>This difficult coding quiz challenges users to run through 10 questions before the timer runs out. If user makes it through the end then they will be able to add their initials to the highscore page.</p>
+             <a href="https://github.com/AshleyWhaley/TimedCodeQuiz.git" target="_blank" class="btn btn-primary">Click me</a>
+           </div>
+         </div>
       </div>
-        <div class="row">
-            <img class="img-fluid col-md-6 my-3" src="images/uhura.jpg" alt="Uhura">
-            <img class="img-fluid col-md-6 my-3" src="images/justtheboys.jpg" alt="Kirk and Spock">
-        </div>
   </div>
 </main>
 

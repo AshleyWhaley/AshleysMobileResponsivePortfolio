@@ -11,21 +11,38 @@
 </head>
 <body>
   <!--NAV Section-->
-  <nav class="navbar navbar-expand navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Ashley Whaley</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-link" href="contacts.html">Contact</a>
-         </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Links
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="https://docs.google.com/document/d/1q68wpLjR2DAqR5ANK7Oj_inYJSG6hiY5GY7LJlf8uvU/edit?usp=sharing" target="_blank">Resume</a></li>
+              <li><a class="dropdown-item" href="https://github.com/AshleyWhaley" target="_blank">GitHub</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/ashley-whaley-00227297/" target="_blank">LinkedIn</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
+  
     <!--Header-->
    <main class="container card my-3 py-3">
     <div class="card-body">
